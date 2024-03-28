@@ -1,0 +1,154 @@
+body{
+    font-family: 'Droid Arabic Kufi', serif;
+    background-color: #ddd;
+    direction: rtl;
+}
+ul ,ol{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+.container{
+    width: 940px;/*ع ييجى على اد الصفحة بالضبط*/
+    margin: 20px auto;
+    height: 500px;/*هنشيله بعدين*/
+
+}
+/***   Start header   ***/
+
+header{
+    width: 940px;/*ع ييجى على اد الصفحة بالضبط*/
+    background-color: rgb(253,253,253);
+    min-height: 100px;
+    overflow: hidden;
+}
+header .logo{
+    width: 20%;
+    float:right;
+}
+header .logo img{
+    width: 100px;
+    margin:10px 10px 10px 0;
+}
+header nav{
+    width: 80% ;
+    float:left;
+
+    /* background-color: #888;
+    height: 100px;هنشيله بعدين*/
+}
+header nav ul{
+    margin: 50px 25px 0 0 ;
+    font-weight: bold;
+    font-size: 22px;
+}
+header nav ul li{
+    display: inline-block ;
+    padding: 10px;
+    margin: 5px;/*ع الايقونات*/
+}
+/***   Start header   ***/
+
+/***   Start Conent   ***/
+
+.content{
+    overflow: hidden;
+
+} 
+.content .sidebar{
+    float: right;
+    width: 25%;
+    margin-left: 1%;
+    height: 500px;/*هنشيله بعدين*/
+
+}
+.content .sidebar .widgit{
+    width: 90%;
+    background-color: #fff;
+    border:1px solid #ccc ;
+    margin: 10px auto;
+}
+.content .sidebar .widgit .title{
+    color: #fff;
+    background-color: #222;
+    padding:5px 0;
+    text-align: center;
+}
+.content .sidebar .widgit .info{
+    padding-right: 10px;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 22px;
+}
+.content .sidebar .widgit .info img{
+ max-width: 80%;
+}
+.content .sidebar .widgit .info ul{
+    text-align: right;
+}
+.content .sidebar .widgit ul li{
+    padding-right: 10px;
+}
+.content .sidebar .widgit .icons ul li{
+    padding-right: 10px;
+    display: inline-block
+}
+.content .sidebar .widgit .icons img{
+    width: 34px;   
+}
+.content .products{
+    float: left;
+    width: 74%;
+    overflow: hidden;
+    padding: 0 0 20px 0;
+}
+.content .products .product{
+    float: right;
+    width: 22%;
+    margin-left: 3%;
+    margin-top: 20px;
+    border-radius: 2px;
+    background-color: #FFF;
+    height: 150px;
+}
+.content .products .product img{
+    width: 100%;
+    border-radius: 2px;
+    height: 100px;
+
+}
+.content .products .product .info{
+    text-align: center;
+    display: block;
+
+}
+/***  END Conent   ***/
+/***   Start footer   ***/
+footer {
+    min-height: 100px;
+    background-color:#CCC ;
+    
+}
+footer .info{
+    background-color:#676767 ;
+    overflow: hidden;
+}
+footer .info .box{
+    width:30.3333% ;
+    float: right;
+    margin-left: 3%;
+}
+footer .info ul{
+   margin: 10px 10px 0 0 ;
+}
+footer .info h3{
+    border-bottom: 1px solid #555;
+ }
+footer .copyright{
+    padding:10px 0;
+    background-color: #333; 
+    color: #999; 
+    text-align: center;
+
+}
+/***   end footer   ***/
